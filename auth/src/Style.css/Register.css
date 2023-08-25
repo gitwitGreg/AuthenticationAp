@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+
+
+.bg{
+    background: url('../assets/al.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+
+.glass{
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+height: 600px;
+width: 100%;
+align-self: center;
+align-content: center;
+padding-left:300px;
+padding-top: 150px;
+width: 500px;
+margin-left: 25%;
+}
+
+.glass .sign-up h1{
+    font-size: 40px;
+    margin-top: -80px;
+}
+
+.glass .sign-up .username label{
+    margin-left: -100px;
+    font-size: xx-large;
+    font-weight: 400;
+    padding-right: 15px;
+}
+
+.glass .sign-up .pass label{
+    margin-left: -100px;
+    font-size: xx-large;
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+.glass .sign-up .pass input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.glass .sign-up .username input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.glass .sign-up .username{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.glass .sign-up .remember{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: -100px;
+    margin-bottom: 15px;
+}
+
+.glass .sign-up .remember a{
+    text-decoration: none;
+}
+
+
+.glass .sign-up .cpass{
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 0px;
+    display: flex;
+}
+
+.glass .sign-up .cpass label{
+    width:0%
+
+}
+.glass .sign-up .cpass input{
+    width: 300px;
+    height: 40px;
+    border: none;
+}
+
+.glass .sign-up button{
+    width: 450px;
+    margin-left: -100px;
+    height: 50px;
+    border: none;
+    font-size: larger;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
